@@ -2,34 +2,34 @@ module.exports = fizzBuzz
 
 
 
-function fizzBuzz(x) {
+// function fizzBuzz(x) {
 
-    let resto = ""
+//     let resto = ""
 
-    resto = x % 3;
+//     resto = x % 3;
 
-    if (resto == 0){
+//     if (resto == 0){
 
-        resto = x % 5
+//         resto = x % 5
 
-        if (resto == 0){
+//         if (resto == 0){
 
-            return 'FIZZBUZZ'
+//             return 'FIZZBUZZ'
 
-        }else return 'FIZZ' 
+//         }else return 'FIZZ' 
         
-    } 
-    else {
+//     } 
+//     else {
 
-        resto = x % 5
+//         resto = x % 5
 
-        if (resto == 0){
+//         if (resto == 0){
 
-            return 'BUZZ'
+//             return 'BUZZ'
 
-        }return x
-    }
-}
+//         }return x
+//     }
+// }
 
 let count = []
 
@@ -60,27 +60,27 @@ function fizzBuzz (number){
 
 
 
-   let count = []
+//    let count = []
 
-    for (var i = 1; i <= 100; i++) {
-        console.info(i)
-        let resultado =""
+//     for (var i = 1; i <= 100; i++) {
+//         console.info(i)
+//         let resultado =""
 
-        if ((i % 3) == 0){
-            resultado = 'FIZZ'
-            console.info(i)
-        }
-        if ((i % 5) == 0){
-            resultado = resultado + 'BUZZ'
-        }
-        if (((i % 3) != 0) && ((i % 5) != 0)){
-            resultado = i
-        }
+//         if ((i % 3) == 0){
+//             resultado = 'FIZZ'
+//             console.info(i)
+//         }
+//         if ((i % 5) == 0){
+//             resultado = resultado + 'BUZZ'
+//         }
+//         if (((i % 3) != 0) && ((i % 5) != 0)){
+//             resultado = i
+//         }
 
-        count.push(resultado)
+//         count.push(resultado)
 
 
 
-    console.info(count)
-}
+//     console.info(count)
+// }
 
